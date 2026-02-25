@@ -1,0 +1,10 @@
+{
+  "name": "@gemini-code-cli/sdk",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js"
+  }
+}

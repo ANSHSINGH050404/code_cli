@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@gemini-code-cli/core": ["packages/core/src"],
+      "@gemini-code-cli/sdk": ["packages/sdk/src"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
